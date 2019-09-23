@@ -12,11 +12,15 @@ for (let i = 0; i < numberOfColumns; i++) {
 
 console.log(v)
 
-/*Second Solution*/
+/* Second Solution */
 
 let o= "";
 let numberOfLevels = 8;
+let l = ""
 for (let i = 0; i < numberOfLevels; i++) {
-    o += "O";
-    console.log(o);
+    l += "O"
+    o += l
+    o+= "\n"
 }
+
+console.log(o)
