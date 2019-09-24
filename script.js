@@ -24,3 +24,21 @@ for (let i = 0; i < numberOfLevels; i++) {
 }
 
 console.log(o)
+
+/* Third Solution (upside down triangle) */
+
+let z= "";
+let numberOfFloors = 7;
+let numberOfIts = 7;
+for (let i = 0; i < numberOfFloors; i++) {
+    let y = [];
+    for (let i = 0; i < numberOfIts; i++) {
+    y.push("Y");
+    z += y[i]
+}
+    z += "\n";
+    numberOfIts -= 1;
+}
+console.log(z)
+
+ 
